@@ -30,7 +30,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<link rel="stylesheet" href="./loginfiles/respond.css" type="text/css" media="screen">
 		<style type="text/css" id="static-stylesheet"></style>
 		<link rel="stylesheet" href="./loginfiles/3fd8903d40c7ca4d543fb110f0a63e09.css" type="text/css" media="all">
-		<link rel="stylesheet" href="<%=path%>/layer/skin/default/layer.css">
+		<link rel="stylesheet" href="layer/skin/default/layer.css">
+		<script src="js/jquery-1.7.1.min.js"></script>
 		<!-- Cache! -->
 		<link rel="stylesheet" id="dt-main-css" href="./loginfiles/main.css" type="text/css" media="all">
 		<link rel="stylesheet" id="dt-custom-less-css" href="./loginfiles/custom-7deeeba33b.css" type="text/css" media="all">
@@ -51,8 +52,8 @@ margin-top:-100px !important;
 		<!-- Cache! -->
 		<script src="./loginfiles/hm.js"></script>
 		<script src="./loginfiles/hm(1).js"></script>
-		<script src="<%=path%>/layer/layer.js"></script>
-		<script type="text/javascript">
+		<script src="/layer/layer.js"></script>
+		<script type="text/javascript"> 
 		
 		function chrome(){
     		var explorer = window.navigator.userAgent;

@@ -262,8 +262,8 @@
      <script type="text/javascript">
     $(function(){
 	    var total = "${totalcount}";
-	    alert(parent.document.getElementById("mainFrame").height);
-	    alert(parent.parent.document.getElementById("mainFrame").height);
+	    //alert(parent.document.getElementById("mainFrame").height);
+	    //alert(parent.parent.document.getElementById("mainFrame").height);
 	    if(total!=0){
 	    	parent.document.getElementById("mainFrame").height=parseInt(parent.document.getElementById("mainFrame").height)-90+(total*57);
     	parent.parent.document.getElementById("mainFrame").height=parseInt(parent.parent.document.getElementById("mainFrame").height)+(total*57);

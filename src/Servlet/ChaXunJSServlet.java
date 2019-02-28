@@ -35,6 +35,7 @@ public class ChaXunJSServlet extends HttpServlet{
         resp.setCharacterEncoding("UTF-8");
         String input1 = req.getParameter("input1");
         String input2 = req.getParameter("input2");
+        String[] input3 = req.getParameterValues("input2");
 //        if(input1.equals(input2)){
 //        	//System.out.println("");
 //        	String[] temp = input2.split("-");
